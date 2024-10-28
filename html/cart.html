@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/cart.css">
+  <title>Cart - Adidas Campus Store</title>
+</head>
+
+<body>
+  <header>
+    <h1>Adidas Campus</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="./product.html">Product</a></li>
+        <li><a href="./cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cart">
+      <h2>Your Cart</h2>
+      <div class="cart-items"></div>
+      <div class="summary">
+        <h3>Total: <span id="total-price">$0.00</span></h3>
+      </div>
+      <button id="checkout-button" class="btn">Checkout</button>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Adidas Campus Store</p>
+  </footer>
+
+  <script src="./java/cart.js"></script>
+</body>
+
+</html>

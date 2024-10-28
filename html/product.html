@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/product.css">
+  <title>Products - Adidas Campus Store</title>
+</head>
+
+<body>
+  <header>
+    <h1>Adidas Campus</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="./product.html">Product</a></li>
+        <li><a href="./cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="description">
+      <h2>About Adidas Campus</h2>
+      <p>The Adidas Campus is an iconic sneaker model from Adidas, known for its classic design and versatility.</p>
+    </section>
+
+    <div class="grid-container">
+      <section class="video-section">
+        <img src="./img/photo.jpg" alt="Adidas Campus Video">
+      </section>
+      <div class="product-grid">
+        <div class="product" data-id="1" data-color="black">
+          <img src="./img/black.jpg" alt="Adidas Campus Black">
+          <h3>Adidas Campus Black</h3>
+          <p>$89.99</p>
+          <button onclick="addToCart(1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-id="2" data-color="yellow">
+          <img src="./img/amareo.jpg" alt="Adidas Campus Yellow">
+          <h3>Adidas Campus Yellow</h3>
+          <p>$99.99</p>
+          <button onclick="addToCart(2)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-id="3" data-color="green">
+          <img src="./img/verde.jpg" alt="Adidas Campus Green">
+          <h3>Adidas Campus Green</h3>
+          <p>$99.99</p>
+          <button onclick="addToCart(3)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-id="4" data-color="red">
+          <img src="./img/vermelho.jpg" alt="Adidas Campus Red">
+          <h3>Adidas Campus Red</h3>
+          <p>$99.99</p>
+          <button onclick="addToCart(4)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-id="5" data-color="blue">
+          <img src="./img/azul.jpg" alt="Adidas Campus Blue">
+          <h3>Adidas Campus Blue</h3>
+          <p>$89.99</p>
+          <button onclick="addToCart(5)">Adicionar ao Carrinho</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Adidas Campus Store</p>
+  </footer>
+
+  <script src="./java/prodtuct.js"></script>
+</body>
+
+</html>
